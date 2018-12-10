@@ -12,9 +12,10 @@ class NavBarButton extends Component {
             <a className="nav-link btn btn-lg" 
                 href={"#" + name.split(' ').join('')}
                 style ={{color: 'white', 
-                        fontSize: '50px', 
-                        background: 'rgba(140, 60, 180, 0.5)',
-                        margin: '0 10px'}}>
+                        fontSize: '45px', 
+                        background: 'rgba(120, 120, 120, 0.6)',
+                        margin: '0 10px',
+                        fontFamily: 'Roboto'}}>
                         {name}
                         <span className="sr-only">(current)</span>
             </a>

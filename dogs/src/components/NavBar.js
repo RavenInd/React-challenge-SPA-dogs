@@ -9,7 +9,8 @@ class NavBar extends Component {
         
         return (
             <div className="jumbotron navbar navbar-expand-lg bg-light" 
-                 style={{background: 'url("https://getleashedmag.com/wp-content/uploads/2017/04/shutterstock_166118261-720x254@2x.jpeg") no-repeat 50% 50%'}}>
+                 style={{background: 'url("https://apdt.com/wp-content/themes/apdt/img/hero10.jpg") no-repeat 0 60%',
+                        backgroundSize : "110%"}}>
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
